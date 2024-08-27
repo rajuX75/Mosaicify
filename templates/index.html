@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Mosaic Creator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Emoji Mosaic Creator</h1>
+        <div class="upload-section">
+            <input type="file" id="imageUpload" accept="image/*">
+            <button id="uploadButton">Upload and Create Mosaic</button>
+        </div>
+        <div id="statusSection" class="status-section">
+            <h2>Server Status</h2>
+            <div id="serverStatus">Not connected</div>
+        </div>
+        <div id="progressSection" class="progress-section">
+            <h2>Processing Progress</h2>
+            <div id="progressBar">
+                <div id="progress"></div>
+            </div>
+        </div>
+        <div id="imageSection" class="image-section">
+            <h2>Mosaic Image</h2>
+            <img id="mosaicImage" src="" alt="Mosaic will appear here" style="display:none;">
+            <a id="downloadLink" href="#" download style="display:none;">Download Mosaic</a>
+        </div>
+        <div id="logsSection" class="logs-section">
+            <h2>Real-time Logs</h2>
+            <div id="logsContainer"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
