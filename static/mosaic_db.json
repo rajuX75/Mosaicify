@@ -1,0 +1,24 @@
+{
+    "a69a2a28-978a-47a7-aa56-b22d252d169d": {
+        "progress": "100%",
+        "status": "completed",
+        "filepath": "static/mosaics\\mosaic_176caea97dcf483db6c7b83f33573e40.png",
+        "image_size": "0.01 MB",
+        "emoji_count": 6565,
+        "creation_date": "2024-08-28 21:05:10",
+        "created_time": "21:05:10",
+        "download_url": "http://localhost:10000/download/a69a2a28-978a-47a7-aa56-b22d252d169d",
+        "error": null
+    },
+    "d75d91e9-da21-46ba-b65c-9f09e58fa767": {
+        "progress": "100%",
+        "status": "completed",
+        "filepath": "static/mosaics\\mosaic_69bd23be38284b389d487a076b92fff4.png",
+        "image_size": "10.26 MB",
+        "emoji_count": 6565,
+        "creation_date": "2024-08-29 14:13:32",
+        "created_time": "14:13:32",
+        "download_url": "http://localhost:10000/download/d75d91e9-da21-46ba-b65c-9f09e58fa767",
+        "error": null
+    }
+}
