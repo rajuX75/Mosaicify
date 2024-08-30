@@ -4,7 +4,7 @@ import pytest
 from io import BytesIO
 from PIL import Image
 from flask import url_for
-from your_flask_app import app  # Replace `your_flask_app` with the actual name of your Flask app file (without .py)
+from server import app  # Replace `your_flask_app` with the actual name of your Flask app file (without .py)
 
 
 @pytest.fixture
